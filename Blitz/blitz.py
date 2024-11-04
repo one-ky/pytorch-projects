@@ -82,7 +82,7 @@ print(c)
 
 # in place opereators that have a _ suffix are in-place.
 print(tensor, '\n')
-tensor.add_(5)gti 
+tensor.add_(5)
 print(tensor)
 '''in place operators can save memory but when compouting derivaties it causes an immediate loss of history so they are not used commonly'''
 
